@@ -1,0 +1,44 @@
+
+clear all; 
+close all; 
+clc;
+%%
+% loading the input files
+
+input_dir='data//qsm_2016_recon_challenge/input/'
+output_dir='data/qsm_2016_recon_challenge/output/'
+
+%%
+% loading the input phase and mask
+input_phs=load(strcat(input_dir,'/phs1.mat')).phs_tissue;
+input_msk=load(strcat(input_dir,'/msk1.mat')).msk;
+
+% loading the Ground-Truth file
+cosmos_ground_truth=load(strcat(input_dir,'/cos1.mat')).cos;
+addpath('metrics/')
+
+%%
+
+% loading the output files
+spinet_qsm_output=load(strcat(output_dir,'SpiNet_QSM_output.mat')).susc;
+spinet_qsm_output = squeeze(spinet_qsm_output);
+
+%%
+% comaprision between the COSMOS and 
+ssim_measured= round(compute_ssim(spinet_qsm_output,cosmos_ground_truth), 4);      
+rmse_measured = round(compute_rmse(spinet_qsm_output,cosmos_ground_truth), 4);      
+psnr_measured= round(compute_psnr(spinet_qsm_output,cosmos_ground_truth), 4);      
+hfen_measured= round(compute_hfen(spinet_qsm_output,cosmos_ground_truth), 4);     
+%%
+% display final results
+
+disp('Comparison with Ground-Truth (COSMOS):')
+fprintf('SSIM: %.4f \n',ssim_measured)
+fprintf('pSNR: %.4f \n',psnr_measured)
+fprintf('RMSE: %.4f \n',rmse_measured)
+fprintf('HEFN: %.4f \n',hfen_measured)
+
+%%
+% making the output figure
+% The figure will be saved at: data/output/
+disp_fig(spinet_qsm_output, cosmos_ground_truth,output_dir);

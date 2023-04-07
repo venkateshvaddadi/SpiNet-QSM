@@ -1,0 +1,58 @@
+%% naveenp@iisc.ac.in MIG, CDS, IISc Bangalore
+
+%% This code will just write the output images to './'
+
+function [] = disp_fig(net,cos,output_dir)
+
+        a=round(size(cos,3)/2);
+        b=round(size(cos,2)/2);
+        c=round(size(cos,1)/2);  
+        
+        im1 = squeeze(cos(:,:,a));
+        im2 = squeeze(cos(:,b,:));
+        im3 = squeeze(cos(c,:,:));        
+        im4 = squeeze(net(:,:,a));
+        im5 = squeeze(net(:,b,:));
+        im6 = squeeze(net(c,:,:));
+ 
+        figure('Position', [1 1 1200 600],'Visible', 'off');        
+        subplot(2,3,1);
+        colormap('gray');
+        imagesc(im1,[-0.1, 0.1]);
+        xlabel('COSMOS');
+        colorbar;
+        subplot(2,3,2);
+        colormap('gray');
+        imagesc(im2,[-0.1, 0.1]);
+        xlabel('COSMOS');
+        colorbar;
+        subplot(2,3,3);
+        colormap('gray');
+        imagesc(im3,[-0.1, 0.1]);
+        xlabel('COSMOS');
+        colorbar;
+        subplot(2,3,4);
+        colormap('gray');
+        imagesc(im4,[-0.1, 0.1]);
+        psnr_im4 = compute_psnr(im4,im1);
+        xlabel(strcat('SpiNet-QSM(',num2str(psnr_im4),')'));
+        colorbar;
+        subplot(2,3,5);
+        colormap('gray');
+        imagesc(im5,[-0.1, 0.1]);
+        psnr_im5 = compute_psnr(im5,im2);
+        xlabel(strcat('SpiNet-QSM(',num2str(psnr_im5),')'));
+        colorbar;
+        subplot(2,3,6);
+        colormap('gray');
+        imagesc(im6,[-0.1, 0.1]);
+        psnr_im6 = compute_psnr(im6,im3);
+        xlabel(strcat('SpiNet-QSM(',num2str(psnr_im6),')'));
+        colorbar;   
+        filename = 'spinet_qsm_output_image.png';
+        full_path_for_results=strcat(output_dir,'/',filename);
+        imwrite(getframe(gcf).cdata,full_path_for_results);
+        close all;
+        
+               
+end
