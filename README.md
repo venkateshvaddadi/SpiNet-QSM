@@ -26,7 +26,7 @@ SpiNet-QSM has two parts: data consistency term and regularization term.
 The proposed SpiNet-QSM solves the following optimization problem.
 <img src="images/required_equations/SpiNet_QSM_optimization_equation.png" alt="spinet-QSM architecture" width=100% height=100%>
 
-In this equation, the norm parameter (p) of the regularization term and regularization parameter(𝜆) are learnable for the QSM problem. 
+In this equation, the norm parameter (**p**) of the regularization term and regularization parameter(**𝜆**) are learnable for the QSM problem. 
 
 # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
