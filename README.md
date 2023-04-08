@@ -8,7 +8,7 @@
 </left>
 <h2> QSM problem</h2>
 QSM provides information about the underlying magnetic susceptibility distribution of a sample from MRI phase measurements. It is useful in the clinical diagnosis of diseases  like Demyelination, Calcification, and Parkinson’s disease.
-
+The mathematical relation for the QSM reconstruction is:
 <center>
 <img src="images/required_equations/qsm_problem_relation.png" alt="spinet-QSM architecture" width=75% height=75%>
 </center>
