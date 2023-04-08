@@ -23,7 +23,7 @@ SpiNet-QSM has two parts: data consistency term and regularization term.
   
 # SpiNet-QSM equations
 The proposed SpiNet-QSM solves the following optimization problem.
-<img src="images/required_equations/relation between local filed and qsm.PNG" alt="spinet-QSM architecture" width=100% height=100%>
+<img src="images/required_equations/SpiNet_QSM_optimization_equation.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 
 # SpiNet-QSM Architecture
