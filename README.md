@@ -17,10 +17,8 @@ For solving QSM problem, it is required peform dipole deconvolution with local f
 <img src="images/required_equations/relation between local filed and qsm.PNG" alt="spinet-QSM architecture" width=100% height=100%>
 
 # SpiNet-QSM 
-The proposed SpiNet-QSM is a model-based deep learning technique for solving the QSM problem. It has unrolled iterative architecture.
-SpiNet-QSM has two parts:
-The data consistency term
-The regularization term
+The proposed SpiNet-QSM is a model-based deep learning technique for solving the QSM problem. 
+SpiNet-QSM has two parts: data consistency term and regularization term.
 
   
 # SpiNet-QSM equations
@@ -29,6 +27,7 @@ The proposed SpiNet-QSM solves the following optimization problem.
 
 
 # SpiNet-QSM Architecture
+It has unrolled iterative architecture.
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 </body>
