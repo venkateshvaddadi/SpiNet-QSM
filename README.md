@@ -30,7 +30,7 @@ In this equation, the norm parameter (**p**) of the regularization term and regu
 
 Here, J(χ) has been iteratively solved using the majorization-minimization approach.
 
-<img src="images/required_equations/majorization_and_minimization.png" alt="spinet-QSM architecture" width=100% height=100%>
+<img src="images/required_equations/majorization_and_minimization_2.png" alt="spinet-QSM architecture" width=100% height=100%>
 
   
   # SpiNet-QSM Architecture
