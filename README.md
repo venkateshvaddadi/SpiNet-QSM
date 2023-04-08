@@ -8,7 +8,7 @@
 </left>
 
 # SpiNet-QSM Architecture
-<img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=90% height=90%>
+<img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 </body>
 </html>
