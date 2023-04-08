@@ -17,7 +17,8 @@ For solving QSM problem, it is required peform dipole deconvolution with local f
 <img src="images/required_equations/relation between local filed and qsm.PNG" alt="spinet-QSM architecture" width=100% height=100%>
 
 # SpiNet-QSM 
-The proposed SpiNet-QSM is a model-based deep learning technique for solving the QSM problem. 
+The proposed SpiNet-QSM is a model-based deep learning technique for solving the QSM problem. The proposed approach can enforce p-norm (0 < p ≤ 2) on trainable regularizer, where its norm parameter (p) is trainable (automatically chosen).
+
 SpiNet-QSM has two parts: data consistency term and regularization term.
 
   
