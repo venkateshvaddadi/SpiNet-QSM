@@ -28,8 +28,10 @@ The proposed SpiNet-QSM solves the following optimization problem.
 
 
 # SpiNet-QSM Architecture
-It has unrolled iterative architecture.
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
+
+# SpiNet-QSM as a unrolled architecture
+<img src="images/urolleding iterative architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 </body>
 </html>
