@@ -16,6 +16,8 @@ The mathematical relation for the QSM reconstruction is:
 For solving QSM problem, it is required peform dipole deconvolution with local field. It is very cruical step in the QSM solving. Unfortunately, this it is an illposed problem.
 <img src="images/required_equations/relation between local filed and qsm.PNG" alt="spinet-QSM architecture" width=100% height=100%>
 
+# SpiNet-QSM 
+The proposed SpiNet-QSM is a model-based deep learning technique for solving the inverse problem.
 
 # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
