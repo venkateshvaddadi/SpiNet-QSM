@@ -28,6 +28,8 @@ The proposed SpiNet-QSM solves the following optimization problem.
 
 In this equation, the norm parameter (**p**) of the regularization term and regularization parameter(**𝜆**) are learnable for the QSM problem. 
 
+Here, J(χ) has been solved in iteratively using the majorization-minimization approach.
+
 # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
