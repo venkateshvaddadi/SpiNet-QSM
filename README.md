@@ -13,7 +13,6 @@ QSM provides information about the underlying magnetic susceptibility distributi
 <img src="images/required_equations/8.png" alt="spinet-QSM architecture" width=25% height=25%>
 </center>
 
-  images/required_equations/8.png
 # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
