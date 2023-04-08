@@ -10,7 +10,7 @@
 QSM provides information about the underlying magnetic susceptibility distribution of a sample from MRI phase measurements. It is useful in the clinical diagnosis of diseases  like Demyelination, Calcification, and Parkinson’s disease.
 
 <center>
-<img src="images/required_equations/8.png" alt="spinet-QSM architecture" width=25% height=25%>
+<img src="images/required_equations/qsm_problem_relation.png" alt="spinet-QSM architecture" width=25% height=25%>
 </center>
 
 # SpiNet-QSM Architecture
