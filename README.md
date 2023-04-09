@@ -61,6 +61,10 @@ QSM maps reconstructed on training limited data were shown in the first row, and
 
   <img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
 
+# How to run the code
+# Dependencies
+# Files description
+# Contact
 
 </body>
 </html>
