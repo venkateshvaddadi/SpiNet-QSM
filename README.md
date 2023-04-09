@@ -22,7 +22,7 @@ The proposed SpiNet-QSM is a model-based deep learning technique for solving the
 SpiNet-QSM has two parts: data consistency term and regularization term.
 
   
-# SpiNet-QSM equations
+# SpiNet-QSM mathematical formulation
 In this approach, QSM problem was formulated as the following optimization problem by enforcing p-norm at denoiser/regularization term.
 <img src="images/required_equations/SpiNet_QSM_optimization_equation.png" alt="spinet-QSM architecture" width=100% height=100%>
 
