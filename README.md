@@ -69,6 +69,7 @@ We can check the quality of the Spinet-QSM output by running the **`metrics_eval
 # Dependencies
 <li> Python  </li>  
 <li> PyTorch 1.10 </li>
+<li> MATLAB R2022b </li>
   
 # Files description
 **`savedModels:`** This directory contain's the learned PyTorch 1.10 model parameters. 
