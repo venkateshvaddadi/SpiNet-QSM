@@ -36,9 +36,11 @@ The following equations defining the majorization and minimization step at $K^{t
 
 The above minimization equation has been solved using the CG algorithm. 
   
-  # SpiNet-QSM Architecture
+# SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
+  
 # Sample QSM reconstruction on QSM-2016 challenge data
+  
 <img src="data/qsm_2016_recon_challenge/output/spinet_qsm_output_image.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 
