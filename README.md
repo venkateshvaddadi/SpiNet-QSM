@@ -42,5 +42,11 @@ The above minimization equation has been solved using the CG algorithm.
 # SpiNet-QSM as a unrolled architecture
 <img src="images/unrolled_iterative_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
 
+# SpiNet-QSM on complete training data
+<img src="images/spinet_qsm_on_complete_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
+
+# SpiNet-QSM on limited training data
+
+
 </body>
 </html>
