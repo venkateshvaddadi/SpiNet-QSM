@@ -62,6 +62,9 @@ QSM maps reconstructed on training limited data were shown in the first row, and
   <img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 # How to run the code
+First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The SpiNet_QSM_demo_run.py file should run without any changes in the code. 
+
+We can run from the command prompt: $python SpiNet_QSM_demo_run.py$
 # Dependencies
 # Files description
 # Contact
