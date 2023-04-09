@@ -72,7 +72,7 @@ We can check the quality of the Spinet-QSM output by running the **`metrics_eval
 
 **`SpiNet_QSM_demo_run.py:`** It to read the model and run on the given demo input data from Data folder.
 
-**`dw_WideResnet.py:`** This file contains the 3D-WideResNet(Residual learning CNN model) code for the denoiser. 
+**`dw_WideResnet.py:`** This file contains the 3D-WideResNet(Residual learning CNN model) code for the denoiser($D_{w}$). 
 
 **`loss.py:`** This file contains the code for the loss function. the $l_1$-norm of the voxel-wise difference (L1 loss term) and gradient-wise difference (edge loss) was utilized in a weighted manner.
 
