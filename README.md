@@ -46,6 +46,7 @@ The above minimization equation has been solved using the CG algorithm.
 <img src="images/spinet_qsm_on_complete_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 # SpiNet-QSM on limited training data
+<img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 
 </body>
