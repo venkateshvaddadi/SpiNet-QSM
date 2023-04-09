@@ -32,6 +32,7 @@ Here, J(χ) has been iteratively solved using the majorization-minimization appr
 
 <img src="images/required_equations/majorization_and_minimization_2.png" alt="spinet-QSM architecture" width=100% height=100%>
 
+The above minimization equation has been solved using the CG algorithm. 
   
   # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
