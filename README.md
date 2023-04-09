@@ -65,6 +65,7 @@ QSM maps reconstructed on training limited data were shown in the first row, and
 First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The SpiNet_QSM_demo_run.py file should run without any changes in the code. 
 
 We can run from the command prompt: **python SpiNet_QSM_demo_run.py**
+We can test the quality of the Spinet-QSM output by running the $metrics_evaluation.m$
 # Dependencies
 # Files description
 # Contact
