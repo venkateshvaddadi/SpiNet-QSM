@@ -49,9 +49,15 @@ The above minimization equation has been solved using the CG algorithm.
 
 # SpiNet-QSM on complete training data
 <img src="images/spinet_qsm_on_complete_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
+<p>
+QSM maps reconstructed on complete data training were shown in the first row, and residual error maps in the second row.
+</p>
 
 # SpiNet-QSM on limited training data
 <img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
+<p>
+QSM maps reconstructed on limited data training were shown in the first row, and residual error maps in the second row.   
+</p>
 
 
 </body>
