@@ -38,6 +38,10 @@ The above minimization equation has been solved using the CG algorithm.
   
   # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
+# Sample QSM reconstruction on QSM-2016 challenge data
+<img src="data/qsm_2016_recon_challenge/output/spinet_qsm_output_image.png" alt="spinet-QSM architecture" width=100% height=100%>
+
+
 
 # SpiNet-QSM as a unrolled architecture
 <img src="images/unrolled_iterative_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
