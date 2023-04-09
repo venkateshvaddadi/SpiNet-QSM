@@ -67,10 +67,8 @@ First, ensure that PyTorch 1.10 or higher version is installed and working with 
 We can run from the command prompt: **`python SpiNet_QSM_demo_run.py`**.
 We can check the quality of the Spinet-QSM output by running the **`metrics_evaluation.m`**. It calculates the **`SSIM, pSNR, RMSE, HFEN`**.
 # Dependencies
-<li>
-<item> Python  </item>  
-<item> PyTorch 1.10  </item> 
-</li>
+<li> Python  </li>  
+<li> PyTorch 1.10 </li>
   
 # Files description
 **`savedModels:`** This directory contain's the learned PyTorch 1.10 model parameters. 
