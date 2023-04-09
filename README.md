@@ -68,6 +68,17 @@ We can run from the command prompt: **`python SpiNet_QSM_demo_run.py`**.
 We can check the quality of the Spinet-QSM output by running the **`metrics_evaluation.m`**. It calculates the **`SSIM, pSNR, RMSE, HFEN`**.
 # Dependencies
 # Files description
+`savedModels:` It contain's the learned PyTorch 1.10 model parameters. 
+
+`SpiNet_QSM_demo_run.py:` It to read the model and run on the given demo input data from Data folder.
+
+`model.py`: This file contain the code for creating the residual learning CNN model as well as the algorithm for 
+	      conjugate-gradient on complex data.
+
+`dw_WideResnet.py:` This file contain the 3D-WideResNet(Residual learning CNN model) code for the denoiser. 
+
+`loss.py:` This file contain the code for the loss function. the $l_1$-norm of the voxel-wise difference (L1 loss term) and gradient-wise difference (edge loss) was utilized in a weighted manner.
+
 # Contact
 
 </body>
