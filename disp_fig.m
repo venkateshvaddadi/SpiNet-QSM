@@ -1,5 +1,3 @@
-%% naveenp@iisc.ac.in MIG, CDS, IISc Bangalore
-
 %% This code will just write the output images to './'
 
 function [] = disp_fig(net,cos,output_dir)
