@@ -30,7 +30,7 @@ In this equation, the norm parameter (**p**) of the regularization term and regu
 
 Here, J(χ) has been iteratively solved using the majorization-minimization approach. In the Majorization, the upper bound function F(χ) for J(χ) has been defined and in the minimization step F(χ) was solved.
   
-The following equations defining the majorization and minimization step at $K^th$ iteration.
+The following equations defining the majorization and minimization step at $K^{th}$ iteration.
 
 <img src="images/required_equations/majorization_and_minimization_3.png" alt="spinet-QSM architecture" width=100% height=100%>
 
