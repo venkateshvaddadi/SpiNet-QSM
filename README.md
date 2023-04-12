@@ -4,7 +4,7 @@
 <body>
 
 <left>
-<h1>SpiNet QSM: Model-based Deep Learning with Schatten p‐norm regularization for QSM reconstruction </h1>
+<h1>SpiNet-QSM: Model-based Deep Learning with Schatten p‐norm regularization for Quantitative Susceptibility Mapping</h1>
 </left>
 <h2> QSM problem</h2>
 QSM provides information about the underlying magnetic susceptibility distribution of a sample from MRI phase measurements. It is useful in the clinical diagnosis of diseases  like Demyelination, Calcification, and Parkinson’s disease.
