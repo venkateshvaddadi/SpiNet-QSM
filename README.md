@@ -34,7 +34,7 @@ The following equations defining the majorization and minimization step at $K^{t
 
 <img src="images/required_equations/majorization_and_minimization_3.png" alt="spinet-QSM architecture" width=100% height=100%>
 
-The above minimization equation has been solved using the CG algorithm. 
+The above minimization equation has been solved using the conjugate gradient descent(CG) algorithm. 
   
 # SpiNet-QSM Architecture
 <img src="images/SpiNet_QSM_architecture.png" alt="spinet-QSM architecture" width=100% height=100%>
