@@ -56,7 +56,7 @@ QSM maps reconstructed on complete training data were shown in the first row, an
 
 # SpiNet-QSM on limited training data
 <p>
-QSM maps reconstructed on training limited data were shown in the first row, and residual error maps in the second row.   
+QSM maps reconstructed on limited training data were shown in the first row, and residual error maps in the second row.   
 </p>
 
   <img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
