@@ -59,7 +59,7 @@ QSM maps reconstructed on complete training data were shown in the first row, an
 QSM maps reconstructed on limited training data were shown in the first row, and residual error maps in the second row.   
 </p>
 
-  <img src="images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
+  <img src="/images/spinet_qsm_on_limited_training_data.png" alt="spinet-QSM architecture" width=100% height=100%>
 
 # How to run the code
 First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The SpiNet_QSM_demo_run.py file should run without any changes in the code. 
