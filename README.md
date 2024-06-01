@@ -85,6 +85,10 @@ We can check the quality of the Spinet-QSM output by running the **`metrics_eval
 
 **`utils.py:`** This file contains the code for many supporting functions for the previous Python code files.
 # Contact
+Dr. Phaneendra K. Yalavarthy
+Assoc.Prof, CDS, IISc Bangalore, email : yalavarthy@iisc.ac.in
 
+Vaddadi Venkatesh
+(PhD) CDS, MIG, IISc Bangalore, email : venkateshvad@iisc.ac.in
 </body>
 </html>
